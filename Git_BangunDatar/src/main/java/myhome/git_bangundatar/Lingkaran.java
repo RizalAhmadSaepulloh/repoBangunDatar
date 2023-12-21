@@ -8,6 +8,16 @@ package myhome.git_bangundatar;
  *
  * @author rizal
  */
-public class Lingkaran extends {
+public class Lingkaran extends BangunDatar{
+
+    @Override
+    public double hitungLuas() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public double hitungkeliling() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
 }
