@@ -6,26 +6,28 @@ package myhome.git_bangundatar;
 
 /**
  *
- * @author rizal
+ * @author M Alif Mi'raj Jabbar
  */
-public class Lingkaran extends BangunDatar{
-    private double radius;
-    double phi = 3.14;
+public class PersegiPanjang extends BangunDatar{
+    private int panjang;
+    private int lebar;
 
-    public Lingkaran(double radius, double , String nama, String sudut) {
-        super(nama, sudut);
-        this.radius = radius;
+    public PersegiPanjang() {
+    }
+
+    public PersegiPanjang(int panjang, int lebar) {
+        this.panjang = panjang;
+        this.lebar = lebar;
     }
 
     @Override
     public double hitungLuas() {
-        return phi * Math.pow(phi, 2);
+        return panjang * lebar;
     }
 
     @Override
     public double hitungkeliling() {
-        
+        return 2 * (panjang + lebar);
     }
     
-   
 }
